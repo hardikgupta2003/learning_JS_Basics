@@ -10,3 +10,21 @@ let rectangle={
 }
 
 console.log(rectangle.draw());
+
+
+
+
+function CreateRectangle(len,bre){
+    
+    return rectangle = {
+        lenght:len,
+        breadth:bre,
+        
+        draw(){
+            console.log('drawing rectangle');
+        }
+        
+    };
+}
+
+let rectObj=CreateRectangle(5,7);
